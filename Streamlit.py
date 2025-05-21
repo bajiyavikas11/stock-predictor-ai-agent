@@ -9,7 +9,7 @@ from predictor import run_prediction
 
 import pandas as pd
 # Set environment variable for Google API
-os.environ["GOOGLE_API_KEY"] = "add gemini api key"
+os.environ["GOOGLE_API_KEY"] = "here add gemini api key"
 
 # Function to fetch and compare stock data
 def compare_stocks(symbols):
