@@ -47,7 +47,7 @@ def run_prediction(stock_symbol):
         from_str = date.strftime("%Y-%m-%d")
         to_str = (date + timedelta(days=1)).strftime("%Y-%m-%d")
         url = f"https://finnhub.io/api/v1/company-news"
-        params = {"symbol": ticker, "from": from_str, "to": to_str, "token": "cvtb3o9r01qhup0vcosgcvtb3o9r01qhup0vcot0"}
+        params = {"symbol": ticker, "from": from_str, "to": to_str, "token": "FINHUB API KEY"}
         try:
             response = requests.get(url, params=params)
             data = response.json()
